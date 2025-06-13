@@ -1,0 +1,57 @@
+body{
+    padding:0;
+    marging:0;
+    
+}
+
+.header{
+    font-family: 'Roboto', Times, serif;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top{
+    margin:50px;
+    padding:30px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom{
+    margin:50px;
+    padding:20px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo p{
+    padding:0;
+    margin:0;
+    font-size:24px;
+    color: #F9FAF8;
+}
+
+h1{
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
+
+.header-main-text p, .header-links a{
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.header-main-text{
+    width:300px;
+}
+
+.header-links a{
+    text-decoration: none ;
+}
+
+.header-links{
+    display: flex;
+    gap:40px;
+}
