@@ -1,28 +1,45 @@
 body{
     padding:0;
-    marging:0;
+    margin:0;
+    height:100vh;
+    font-family: 'Roboto', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
 }
 
+/* All header styles start here  */
+
 .header{
-    font-family: 'Roboto', Times, serif;
+    
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    
 }
 
 .header-top{
-    margin:50px;
-    padding:30px 200px;
+    width:800px;
     display: flex;
     justify-content: space-between;
 }
 
+button{
+    
+    padding:10px 30px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 4px;
+    
+}
+
 .header-bottom{
-    margin:50px;
-    padding:20px 200px;
+    width:800px;
     display: flex;
     justify-content: space-between;
+    border-color: none;
 }
 
 .logo p{
@@ -53,5 +70,76 @@ h1{
 
 .header-links{
     display: flex;
-    gap:40px;
+    gap:20px;
+}
+
+/*  all body style selector start here  */
+
+.body-content{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.quote {
+    
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-family: "light italic";
+    color: #1F2937;
+    
+
+}
+
+.quote-text{
+    width: 800px;
+    justify-self: center;
+}
+
+.quote .author {
+    width:800px;
+    font-weight: bold;
+    justify-self: center;
+}
+
+/* all sing-up selector start here */
+
+.sing-up {
+    background-color: white;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.sing-up-box {
+    
+    width:800px;
+    background-color: #3882F6;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.sing-up-box button{
+    margin:50px;
+    border-color: white;
+    border-style: solid;
+}
+
+/* all footer selector start here */
+
+.footer{
+    width:800px;
+    padding:40px 800px;
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    
 }
